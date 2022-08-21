@@ -1,5 +1,5 @@
 <?php
-$data = new mysqli("localhost", "root", "Oxford2022!", "Game_System");
+$data = new mysqli("localhost", "root", "", "Game_System");
 if ($data->connect_errno) {
     echo "<p>Error was found $data->errno --> $data->connect_error</p>";
     die();
